@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE components PUBLIC "-//SEASAR//DTD S2Container 2.4//EN"
+        "http://www.seasar.org/dtd/components24.dtd">
+<components>
+
+    <include path="s2mai.dicon"/>
+    
+    <component class="tweet140.s2mai.ResetPasswordMailMai">
+        <aspect>s2MaiInterceptor</aspect>
+    </component>
+</components>

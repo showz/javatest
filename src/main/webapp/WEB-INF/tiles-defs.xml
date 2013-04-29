@@ -1,0 +1,8 @@
+?xml version="1.0" encoding="UTF-8"?>
+<tiles-definitions>
+	<definition name="layoutBase" path="/layout.jsp">
+		<put name="header" value="/header.jsp" />
+		<put name="description" value="/description.jsp" />
+		<put name="footer" value="/footer.jsp" />
+	</definition>
+</tiles-definitions>
